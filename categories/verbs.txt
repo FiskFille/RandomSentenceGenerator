@@ -2,3 +2,6 @@ smells good
 smells bad
 eats [food] every day
 runs 20 miles per hour
+loves [people]
+can fly
+is a [things]
