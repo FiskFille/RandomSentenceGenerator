@@ -4,3 +4,13 @@ fish
 sauerkraut
 potatoes
 bacon
+pie
+oranges
+coconuts
+cheese
+onions
+carrots
+chicken
+steak
+noodles
+pasta
