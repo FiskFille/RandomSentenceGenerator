@@ -26,8 +26,10 @@ public class Main
 		String[] words = s.split(" ");
 		String text = "";
 		
-		for (String word : words)
+		for (int i = 0; i < words.length; ++i)
 		{
+			String word = words[i];
+			
 			for (String key : keys)
 			{
 				if (word.equals("[" + key + "]"))
@@ -37,8 +39,7 @@ public class Main
 				}
 			}
 			
-			
-			text += (word.equals(words[0]) ? word.substring(0, 1).toUpperCase() + word.substring(1) : word) + " ";
+			text += (i == 0 ? word.substring(0, 1).toUpperCase() + word.substring(1) : word) + " ";
 		}
 		
 		return text.substring(0, text.length() - 1);
