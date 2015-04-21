@@ -4,3 +4,6 @@
 [people] made a mod based on [things]
 [times] [people] won the Nobel prize for [adverbs]
 [people] tends to be [adjectives] 
+[people] is obsessed with [things]
+[people] likes to [verbs]
+[people] lied to [people] about [people] [verbs]
