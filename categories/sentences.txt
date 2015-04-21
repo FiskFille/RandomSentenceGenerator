@@ -1,0 +1,6 @@
+[people] [statements] [people] [verbs]
+[people] [statements] [people] is [adjectives]
+[people] recently removed [food] from [things]
+[people] made a mod based on [things]
+[times] [people] won the Nobel prize for [adverbs]
+[people] tends to be [adjectives] 
