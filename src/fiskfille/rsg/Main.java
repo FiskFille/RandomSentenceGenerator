@@ -17,11 +17,9 @@ public class Main
 		{
 			keys[i] = listFiles[i].getName().split("\\.")[0];
 		}
-		
-		for (int i = 0; i < 20; i++) 
-		{
-			System.out.println(generateRandomSentence());
-		}
+
+		if (args.length > 0) for (int i = 0; i < parseInt(args[0]); i++) System.out.println(generateRandomSentence());
+		else System.out.println(generateRandomSentence());
 	}
 	
 	private static String generateRandomSentence()
@@ -33,7 +31,7 @@ public class Main
 			sentence = format(sentence);
 		}
 		
-		return sentence = sentence + ".";
+		return sentence + ".";
 	}
 
 	public static String format(String s)
@@ -44,6 +42,7 @@ public class Main
 		for (int i = 0; i < words.length; ++i)
 		{
 			String word = words[i];
+			boolean name = word.equals("[people]");
 			
 			for (String key : keys)
 			{
@@ -54,9 +53,21 @@ public class Main
 				}
 			}
 			
-			text += (i == 0 ? word.substring(0, 1).toUpperCase() + word.substring(1) : word) + " ";
+			text += name ? word + " " : (i == 0 ? word.substring(0, 1).toUpperCase() + word.substring(1) : word) + " ";
 		}
 		
 		return text.substring(0, text.length() - 1);
+	}
+
+	public static int parseInt(String value)
+	{
+		try
+		{
+			return Integer.parseInt(value);
+		}
+		catch(NumberFormatException nfe)
+		{
+			return 1;
+		}
 	}
 }
