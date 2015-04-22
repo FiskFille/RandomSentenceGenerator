@@ -2,11 +2,14 @@ package fiskfille.rsg;
 
 public class Main
 {
-	public static String[] keys = {"people", "sentences", "statements", "verbs", "things", "food", "adverbs", "places", "adjectives", "times"};
+	public static String[] keys = {"people", "sentences", "statements", "verbs", "things", "food", "adverbs", "places", "adjectives", "times", "emotions"};
 	
 	public static void main(String[] args)
 	{
-		System.out.println(generateRandomSentence());
+		for (int i = 0; i < 20; i++) 
+		{
+			System.out.println(generateRandomSentence());
+		}
 	}
 	
 	private static String generateRandomSentence()

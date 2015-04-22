@@ -7,3 +7,5 @@
 [people] is obsessed with eating [food]
 [people] is obsessed with [things]
 [people] lied to [people] about [people] [adverbs]
+[people] is [emotions] because of [people] [adverbs]
+[people] is in love with [people]
