@@ -1,11 +1,23 @@
 package fiskfille.rsg;
 
+import java.io.File;
+
 public class Main
 {
-	public static String[] keys = {"people", "sentences", "statements", "verbs", "things", "food", "adverbs", "places", "adjectives", "times", "emotions"};
+	public static String[] keys;// = {"people", "sentences", "statements", "verbs", "things", "food", "adverbs", "places", "adjectives", "times", "emotions"};
 	
 	public static void main(String[] args)
 	{
+		File categories = new File("categories");
+		
+		File[] listFiles = categories.listFiles();
+		keys = new String[listFiles.length];
+		
+		for (int i = 0; i < listFiles.length; i++)
+		{
+			keys[i] = listFiles[i].getName().split("\\.")[0];
+		}
+		
 		for (int i = 0; i < 20; i++) 
 		{
 			System.out.println(generateRandomSentence());
