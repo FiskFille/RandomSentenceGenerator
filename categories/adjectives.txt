@@ -1,6 +1,14 @@
 sexy
 smooth
 blue
+red
+purple
+yellow
+orange
+green
+normal
+boring
+exciting
 amazing
 terrible
 sitting on [things]
