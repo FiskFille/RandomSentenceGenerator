@@ -12,3 +12,6 @@ exciting
 amazing
 terrible
 sitting on [things]
+nice
+kind
+annoying

@@ -9,3 +9,5 @@
 [people] lied to [people] about [people] [adverbs]
 [people] is [emotions] because of [people] [adverbs]
 [people] is in love with [people]
+[things] looks like [things]
+[food] tastes like [food]

@@ -2,3 +2,5 @@ claims
 mentions
 says
 states
+thinks
+remembers that

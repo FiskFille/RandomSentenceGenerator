@@ -5,3 +5,8 @@ runs 20 miles per hour
 loves [people]
 can fly
 is a [things]
+eat [food] in 10 seconds
+is random like [things]
+made [things]
+made [things] for [people]
+created [things]
