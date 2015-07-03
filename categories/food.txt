@@ -15,3 +15,8 @@ steak
 noodles
 pasta
 french fries
+apple
+banana
+orange
+grapes
+pineapple
